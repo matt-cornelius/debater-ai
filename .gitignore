@@ -1,0 +1,23 @@
+# Environment — never commit real credentials
+.env
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Word temp files
+~$*
